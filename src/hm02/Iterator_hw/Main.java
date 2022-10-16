@@ -1,4 +1,4 @@
-package hm02.Adapter;
+package hm02.Iterator_hw;
 
 public class Main {
 
