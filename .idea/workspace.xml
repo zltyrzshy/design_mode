@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6089ce8-3861-4142-9351-249e322764b4" name="变更" comment="do the hw">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_mode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/AbstractFactory/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Bridge_hw/Bridge/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Bridge_hw/Bridge/DisplayBMPimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Bridge_hw/Bridge/DisplayGIFimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Bridge_hw/Bridge/DisplayJPGimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Bridge_hw/Bridge/Displayimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Bridge_hw/Bridge/FilterDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Bridge_hw/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Builder_hw/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/Builder_hw/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/SimpleFactory_hw/SimpleFactory/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/SimpleFactory_hw/SimpleFactory/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/SimpleFactory_hw/SimpleFactory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/SimpleFactory_hw/SimpleFactory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/SimpleFactory_hw/SimpleFactory/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/SimpleFactory_hw/SimpleFactory/UnsupportedShapeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hm03/SimpleFactory_hw/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hm02/resource/design_mode homework02.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/hm02/resource/design_mode homework02.md" afterDir="false" />
+    <list default="true" id="b6089ce8-3861-4142-9351-249e322764b4" name="变更" comment="DO HOMEWORK">
+      <change afterPath="$PROJECT_DIR$/src/hm03/Strategy_hw/CRRTMotionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hm03/Strategy_hw/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hm03/Strategy_hw/PostCopyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hm03/Strategy_hw/PreCopystrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hm03/Strategy_hw/SimPlateform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hm03/Strategy_hw/Strategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +65,13 @@
       <recent name="hm02.Adapter_hw.objectAdapter" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.hm03.Bridge_hw.main">
-    <configuration name="VirtualUserGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hm02.Singleton_hw.way3.VirtualUserGenerator" />
+  <component name="RunManager" selected="应用程序.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hm03.Strategy_hw.Client" />
       <module name="design_mode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hm02.Singleton_hw.way3.*" />
+          <option name="PATTERN" value="hm03.Strategy_hw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +147,19 @@
     </configuration>
     <list>
       <item itemvalue="应用程序.hm02.Adapter_hw.objectAdapter.main" />
+      <item itemvalue="应用程序.Client" />
       <item itemvalue="应用程序.hm03.Bridge_hw.main" />
       <item itemvalue="应用程序.hm03.SimpleFactory_hw.main" />
       <item itemvalue="应用程序.hm02.Template_hw.Main" />
       <item itemvalue="应用程序.main" />
-      <item itemvalue="应用程序.VirtualUserGenerator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Client" />
         <item itemvalue="应用程序.hm03.Bridge_hw.main" />
         <item itemvalue="应用程序.main" />
         <item itemvalue="应用程序.hm03.SimpleFactory_hw.main" />
         <item itemvalue="应用程序.hm02.Template_hw.Main" />
-        <item itemvalue="应用程序.VirtualUserGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +175,9 @@
       <workItem from="1665901771536" duration="10183000" />
       <workItem from="1665930684372" duration="2446000" />
       <workItem from="1665984938411" duration="654000" />
-      <workItem from="1666003472461" duration="8600000" />
+      <workItem from="1666003472461" duration="8627000" />
+      <workItem from="1666061177760" duration="601000" />
+      <workItem from="1666080775849" duration="2399000" />
     </task>
     <task id="LOCAL-00001" summary="create java class">
       <created>1665902908923</created>
@@ -224,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665932855644</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DO HOMEWORK">
+      <created>1666019095597</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666019095597</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +248,7 @@
     <MESSAGE value="create java class" />
     <MESSAGE value="do the Iterator hw" />
     <MESSAGE value="do the hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="do the hw" />
+    <MESSAGE value="DO HOMEWORK" />
+    <option name="LAST_COMMIT_MESSAGE" value="DO HOMEWORK" />
   </component>
 </project>
