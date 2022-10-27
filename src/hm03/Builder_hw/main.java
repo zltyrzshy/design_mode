@@ -7,20 +7,20 @@ public class main {
             usage();
             System.exit(0);
         }
-        if(args[0].equals("Trucks")){
-            Builder.SystemDirector systemDirector = new Builder.SystemDirector(new Builder.TrucksBuilder());
+        else if(args[0].equals("Trucks")){
+            SystemDirector systemDirector = new SystemDirector(new TrucksBuilder());
             systemDirector.construct();
         }
-        if(args[0].equals("SportsCars")){
-            Builder.SystemDirector systemDirector = new Builder.SystemDirector(new Builder.SportsCarsBuilder());
+        else if(args[0].equals("SportsCars")){
+            SystemDirector systemDirector = new SystemDirector(new SportsCarsBuilder());
             systemDirector.construct();
         }
-        if(args[0].equals("TrackCrosscountry")){
-            Builder.SystemDirector systemDirector = new Builder.SystemDirector(new Builder.TrackCrosscountryBuilder());
+        else if(args[0].equals("TrackCrosscountry")){
+            SystemDirector systemDirector = new SystemDirector(new TrackCrosscountryBuilder());
             systemDirector.construct();
         }
-        if(args[0].equals("FormulaRacing")){
-            Builder.SystemDirector systemDirector = new Builder.SystemDirector(new Builder.FormulaRacingBuilder());
+        else if(args[0].equals("FormulaRacing")){
+            SystemDirector systemDirector = new SystemDirector(new FormulaRacingBuilder());
             systemDirector.construct();
         }
         else {
